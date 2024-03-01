@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: service-local
+    config:
+      import: classpath:application.yml
