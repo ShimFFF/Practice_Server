@@ -25,7 +25,7 @@ public class TestController {
     @ApiResponse(responseCode = "200", description = "테스트 문자열을 성공적으로 반환")
     @GetMapping("/success")
     public BaseResponse<TestResponse.TempTestDTO> successResponseAPI() {
-        return BaseResponse.onSuccess(TestResponse.TempTestDTO.builder().testString("This is Test!").build());
+        return BaseResponse.onSuccess(TestResponse.TempTestDTO.builder().testString("성공했음!").build());
     }
 
 
