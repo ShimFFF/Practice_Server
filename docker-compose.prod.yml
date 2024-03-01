@@ -3,7 +3,7 @@ version: "3" # 버전 지정
 services: # 컨테이너 설정
   backend:
     container_name: service
-    image: shim1510/pratice-server:latest
+    image: shim1510/pratice-server
     environment:
       - SPRING_PROFILES_ACTIVE=prod
     ports:
