@@ -55,7 +55,7 @@ jobs:
       - name: Deploy to server
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
+          host: ${{ secrets.HOST_DEV }}
           username: ubuntu
           key: ${{ secrets.KEY }}
           port: 22
